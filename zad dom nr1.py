@@ -4,7 +4,7 @@ ilekotow = input("podaj ile kotów chcesz mieć : ")
 
 try:
     ilekotow = int(ilekotow)
-except ValueError as owcaError:
-    print(f'{owcaError}, program przyjmuje tylko liczby naturalne')
+except ValueError as OwcaError:
+    print(f'{OwcaError}, program przyjmuje tylko liczby naturalne')
 
 input (ilekotow * " (=^.^=) ")
